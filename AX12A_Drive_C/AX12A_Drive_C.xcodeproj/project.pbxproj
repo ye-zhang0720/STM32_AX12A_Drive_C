@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		B53FD7B124D5A76E0008E856 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = B53FD7B024D5A76E0008E856 /* main.c */; };
+		B53FD7B924D5B0AC0008E856 /* Dynamixel.c in Sources */ = {isa = PBXBuildFile; fileRef = B53FD7B824D5B0AC0008E856 /* Dynamixel.c */; };
+		B53FD7BD24D5BD6F0008E856 /* SerialPort.c in Sources */ = {isa = PBXBuildFile; fileRef = B53FD7BC24D5BD6F0008E856 /* SerialPort.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,11 @@
 /* Begin PBXFileReference section */
 		B53FD7AD24D5A76E0008E856 /* AX12A_Drive_C */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AX12A_Drive_C; sourceTree = BUILT_PRODUCTS_DIR; };
 		B53FD7B024D5A76E0008E856 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		B53FD7B724D5B0AC0008E856 /* Dynamixel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dynamixel.h; sourceTree = "<group>"; };
+		B53FD7B824D5B0AC0008E856 /* Dynamixel.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Dynamixel.c; sourceTree = "<group>"; };
+		B53FD7BA24D5B5FA0008E856 /* DynamixelConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DynamixelConfig.h; sourceTree = "<group>"; };
+		B53FD7BB24D5BD6F0008E856 /* SerialPort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SerialPort.h; sourceTree = "<group>"; };
+		B53FD7BC24D5BD6F0008E856 /* SerialPort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = SerialPort.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,11 @@
 			isa = PBXGroup;
 			children = (
 				B53FD7B024D5A76E0008E856 /* main.c */,
+				B53FD7B724D5B0AC0008E856 /* Dynamixel.h */,
+				B53FD7B824D5B0AC0008E856 /* Dynamixel.c */,
+				B53FD7BA24D5B5FA0008E856 /* DynamixelConfig.h */,
+				B53FD7BB24D5BD6F0008E856 /* SerialPort.h */,
+				B53FD7BC24D5BD6F0008E856 /* SerialPort.c */,
 			);
 			path = AX12A_Drive_C;
 			sourceTree = "<group>";
@@ -119,7 +131,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B53FD7BD24D5BD6F0008E856 /* SerialPort.c in Sources */,
 				B53FD7B124D5A76E0008E856 /* main.c in Sources */,
+				B53FD7B924D5B0AC0008E856 /* Dynamixel.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
